@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, CardImage, Text, Heading, Section } from 'rebass';
 import { Grid, Row, Col } from 'react-flexbox-grid';
 
-var Projects = React.createClass({
+var SheetMusic = React.createClass({
     render: function () {
         return (
             <Section>
@@ -13,4 +13,4 @@ var Projects = React.createClass({
     }
 });
 
-export default Projects;
+export default SheetMusic;

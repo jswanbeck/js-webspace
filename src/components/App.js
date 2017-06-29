@@ -5,7 +5,7 @@ import { Container } from 'rebass';
 import NavBar from './NavBar';
 import Footer from './Footer';
 import Home from './Home';
-import Stuff from './Stuff';
+import Stuff from './Stuff/Stuff';
 import Projects from './Projects';
 
 class App extends React.Component {
