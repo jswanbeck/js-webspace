@@ -4,9 +4,9 @@ import { BrowserRouter as Router, Miss, Route } from 'react-router-dom';
 import { Container } from 'rebass';
 import NavBar from './NavBar';
 import Footer from './Footer';
-import Home from './Home';
+import Home from './Home/Home';
 import Stuff from './Stuff/Stuff';
-import Projects from './Projects';
+import Projects from './Projects/Projects';
 
 class App extends React.Component {
     constructor(props) {

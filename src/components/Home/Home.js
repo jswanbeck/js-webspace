@@ -6,32 +6,32 @@ import Icon from './Icon';
 var icons = {
     linkedin: {
         href: 'https://www.linkedin.com/in/jimmyswanbeck',
-        src: require('../img/icons/linkedin.svg'),
+        src: require('../../img/icons/linkedin.svg'),
         alt: 'LinkedIn'
     },
     github: {
         href: 'https://github.com/jswanbeck',
-        src: require('../img/icons/github.svg'),
+        src: require('../../img/icons/github.svg'),
         alt: 'GitHub'
     },
     facebook: {
         href: 'https://www.facebook.com/jimmy.swanbeck',
-        src: require('../img/icons/facebook.svg'),
+        src: require('../../img/icons/facebook.svg'),
         alt: 'Facebook'
     },
     instagram: {
         href: 'https://www.instagram.com/jswan121',
-        src: require('../img/icons/instagram.svg'),
+        src: require('../../img/icons/instagram.svg'),
         alt: 'Instagram'
     },
     twitter: {
         href: 'https://twitter.com/JSwan121',
-        src: require('../img/icons/twitter.svg'),
+        src: require('../../img/icons/twitter.svg'),
         alt: 'Twitter'
     },
     email: {
         href: 'mailto:jimmy.swanbeck@gmail.com',
-        src: require('../img/icons/email.svg'),
+        src: require('../../img/icons/email.svg'),
         alt: 'Email'
     },
 }
@@ -52,7 +52,7 @@ const Home = () => (
             <Col xs>
                 <Base px={3} m={0} >
                     <Card width={'100%'} p={2} >
-                        <Avatar circle size={160} src={require('../img/photos/profile.jpg')} backgroundColor="primary" style={styles.transparentBorder} />
+                        <Avatar circle size={160} src={require('../../img/photos/profile.jpg')} backgroundColor="primary" style={styles.transparentBorder} />
                         <Heading level={2} size={3} >
                             Jimmy Swanbeck
                         </Heading>
