@@ -18,15 +18,30 @@ var NavButton = React.createClass({
         this.setState({ isHighlighted: false });
     },
 
-    renderLink: function () {
-        var style = ! this.state.isHighlighted ? {} :
-        {
-            color: 'white',
-            backgroundColor: styles.colors.primary,
-            borderRadius: 20
-        };
+    animationStyles: {
+        link: {
+            isHighlighted: {
+                padding: 10,
+                borderRadius: 20,
+                transition: 'color,background-color 300ms ease-out',
+                color: 'white',
+                backgroundColor: styles.colors.primary,
+            },
+            notHighlighted: {
+                padding: 10,
+                borderRadius: 20,
+                transition: 'color,background-color 300ms ease-out',
+            },
+        },
+        file: {
+            transition: 'background-color 300ms ease-out',
+        },
+    },
 
-        style.padding = 10;
+    renderLink: function () {
+        var style = this.state.isHighlighted 
+            ? this.animationStyles.link.isHighlighted 
+            : this.animationStyles.link.notHighlighted;
 
         return (
             <NavItem to={this.props.to} is={Link} children={this.props.children}>
@@ -38,11 +53,12 @@ var NavButton = React.createClass({
     },
 
     renderFile: function () {
-        var theme = ! this.state.isHighlighted ? "primary" : "secondary";
+        var theme = this.state.isHighlighted ? "secondary" : "primary";
+        var style = this.animationStyles.file;
 
         return (
             <NavItem href={this.props.to} is="a" target="_blank">
-                <Badge theme={theme} p={1}>
+                <Badge theme={theme} style={style} p={1}>
                     {this.props.label}
                 </Badge>
             </NavItem>

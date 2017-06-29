@@ -1,7 +1,7 @@
 {
-  "name": "my-website",
+  "name": "js-webspace",
   "version": "1.0.0",
-  "description": "Jimmy Swanbeck's personal website",
+  "description": "My website",
   "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server",
