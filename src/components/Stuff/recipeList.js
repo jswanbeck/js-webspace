@@ -16,12 +16,12 @@ const recipeList = {
     },
     "Desserts": {
         "Chocolate Cream Pie": require('../../files/recipes/chocolateCreamPie.pdf'),
-        "Choclate Eclairs": require('../../files/recipes/falafel.pdf'),
-        "Key Lime Pie": require('../../files/recipes/falafel.pdf'),
-        "Peanut Brittle": require('../../files/recipes/falafel.pdf'),
-        "Peanut Butter Cookies": require('../../files/recipes/falafel.pdf'),
-        "Pecan Crescent Cookies": require('../../files/recipes/falafel.pdf'),
-        "Triple Chocolate Mousse Cake": require('../../files/recipes/falafel.pdf'),
+        "Choclate Eclairs": require('../../files/recipes/chocolateEclairs.pdf'),
+        "Key Lime Pie": require('../../files/recipes/keyLimePie.pdf'),
+        "Peanut Brittle": require('../../files/recipes/peanutBrittle.pdf'),
+        "Peanut Butter Cookies": require('../../files/recipes/peanutButterCookies.pdf'),
+        "Pecan Crescent Cookies": require('../../files/recipes/pecanCrescentCookies.pdf'),
+        "Triple Chocolate Mousse Cake": require('../../files/recipes/tripleChocolateMousseCake.pdf'),
     },
 };
 
