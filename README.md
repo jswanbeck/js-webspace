@@ -1,3 +1,3 @@
 # js-webspace
-<div>My website — jswanbeck.github.io</div>
+<div>My website — <a href="jswanbeck.github.io">jswanbeck.github.io</a></div>
 <div>Built with React.js!</div>
