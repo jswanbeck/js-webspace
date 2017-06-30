@@ -5,9 +5,9 @@ module.exports = {
     devtool: 'eval',
     entry: path.join(__dirname, 'src/index.js'),
     output: {
-        path: path.resolve(__dirname, 'build/bundle/'),
+        path: path.resolve(__dirname, 'build/'),
         filename: 'bundle.js',
-        publicPath: '/bundle/'
+        publicPath: '/build/'
     },
     plugins: [
         new webpack.DefinePlugin({

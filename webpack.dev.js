@@ -5,15 +5,15 @@ module.exports = {
     devtool: process.env.NODE_ENV === 'production' ? 'eval'  : 'cheap-source-map',
     entry: path.join(__dirname, 'src/index.js'),
     output: {
-        path: path.resolve(__dirname, 'build/bundle/'),
+        path: path.resolve(__dirname, 'build/'),
         filename: 'bundle.js',
-        publicPath: '/bundle/'
+        publicPath: '/build/'
     },
     devServer: {
         historyApiFallback: {
             index: '/index.html'
         },
-        contentBase: path.resolve(__dirname, 'build'),
+        contentBase: path.resolve(__dirname),
         stats: true,
         inline: true,
         port:8000
