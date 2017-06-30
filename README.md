@@ -2,7 +2,7 @@
 Hosted here: [jswanbeck.github.io][live]
 
 [![forthebadge](http://forthebadge.com/images/badges/built-with-love.svg)](http://forthebadge.com) | A.K.A. React.js
----|:---:
+:---|:---:
 [![forthebadge](http://forthebadge.com/images/badges/uses-js.svg)](http://forthebadge.com) | *(the **JS** is for **J**immy **S**wanbeck)*
 [![forthebadge](http://forthebadge.com/images/badges/built-with-grammas-recipe.svg)](http://forthebadge.com) | *(see https://jswanbeck.github.io/stuff for recipes)*
 [![forthebadge](http://forthebadge.com/images/badges/compatibility-club-penguin.svg)](http://forthebadge.com) | ![alt text][linux]
