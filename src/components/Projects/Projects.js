@@ -7,6 +7,7 @@ var Projects = React.createClass({
         return (
             <Section>
                 <Row center="xs">
+                    <h2>Nothin' to see here (yet)</h2>
                 </Row>
             </Section>
         );
