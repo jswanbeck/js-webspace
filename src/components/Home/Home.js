@@ -1,7 +1,7 @@
 import React from 'react';
 import { Avatar, Card, Section, SectionHeader, Block, Donut, Heading, Text, Badge, Divider, Base } from 'rebass';
 import { Row, Col } from 'react-flexbox-grid';
-import Icon from './Icon';
+import Icon from '../Icon';
 
 var icons = {
     linkedin: {
@@ -100,6 +100,9 @@ const Home = () => (
                     Python
                 </Donut>
                 <Donut color="primary" size={85} strokeWidth={8} m={1} >
+                    Ruby
+                </Donut>
+                <Donut color="primary" size={85} strokeWidth={8} m={1} >
                     PHP
                 </Donut>
                 <Donut color="primary" size={85} strokeWidth={8} m={1} >
@@ -107,9 +110,6 @@ const Home = () => (
                 </Donut>
                 <Donut color="primary" size={85} strokeWidth={8} m={1} >
                     React
-                </Donut>
-                <Donut color="primary" size={85} strokeWidth={8} m={1} >
-                    jQuery
                 </Donut>
                 <Donut color="primary" size={85} strokeWidth={8} m={1} >
                     Docker
