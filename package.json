@@ -29,7 +29,7 @@
     "rebass": "^0.3.4",
     "style-loader": "^0.18.2",
     "webpack": "^3.0.0",
-    "webpack-dev-server": "^2.5.0"
+    "webpack-dev-server": "^3.9.0"
   },
   "devDependencies": {
     "babel-core": "^6.25.0",
